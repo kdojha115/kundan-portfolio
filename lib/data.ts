@@ -8,8 +8,8 @@ export const profile = {
   years: "3.5+",
   phone: "+91 7079371313",
   email: "kdojha115@gmail.com",
-  linkedin: "https://linkedin.com/in/", // placeholder — update with real handle
-  github: "https://github.com/", // placeholder — update with real handle
+  linkedin: "https://www.linkedin.com/in/kundan-kumar-ojha-98327718b/", // placeholder — update with real handle
+  github: "https://github.com/kdojha115?tab=repositories", // placeholder — update with real handle
   location: "India",
   summary:
     "Full Stack Java Developer with 3.5 years of experience designing and developing scalable enterprise applications using Java, Spring Boot, Microservices, React.js, REST APIs, and MySQL. Experienced in building secure and high-performance applications across both frontend and backend layers, including responsive UI development, API integrations, authentication workflows, and distributed systems. Skilled in developing production-grade applications, optimizing performance, and collaborating across cross-functional agile teams.",
@@ -71,7 +71,14 @@ export const experience: ExperienceEntry[] = [
       "Collaborated with frontend developers to integrate backend services with React.js, delivering responsive and production-ready applications.",
       "Optimized SQL queries, improved API performance, resolved production issues, and participated in Agile ceremonies including sprint planning, code reviews, and deployments.",
     ],
-    stack: ["Java", "Spring Boot", "Spring Security", "Hibernate", "MS SQL Server", "React.js"],
+    stack: [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "Hibernate",
+      "MS SQL Server",
+      "React.js",
+    ],
   },
   {
     company: "Emo Matrix",
@@ -87,7 +94,17 @@ export const experience: ExperienceEntry[] = [
       "Improved application performance by optimizing SQL queries, implementing exception handling, and debugging production issues to enhance system reliability.",
       "Collaborated with cross-functional teams following Agile methodology, Git-based version control, and code review best practices.",
     ],
-    stack: ["Java", "Spring Boot", "Spring Security", "Hibernate", "MySQL", "JWT", "Agora SDK", "Razorpay", "Firebase"],
+    stack: [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "Hibernate",
+      "MySQL",
+      "JWT",
+      "Agora SDK",
+      "Razorpay",
+      "Firebase",
+    ],
   },
   {
     company: "Paytm",
@@ -215,7 +232,10 @@ export const skillGroups = [
     ],
   },
   { title: "Database", items: ["MySQL", "SQL Server", "DBMS"] },
-  { title: "Tools", items: ["Git", "GitHub", "Jenkins", "Postman", "Jira", "Maven"] },
+  {
+    title: "Tools",
+    items: ["Git", "GitHub", "Jenkins", "Postman", "Jira", "Maven"],
+  },
   { title: "Cloud / DevOps", items: ["Docker (Basic)", "AWS Fundamentals"] },
   {
     title: "Concepts",
@@ -257,37 +277,66 @@ export const education = {
 export const whyHireMe = [
   {
     title: "Backend Specialist",
-    detail: "3.5 years focused on Java, Spring Boot, and enterprise-grade backend systems.",
+    detail:
+      "3.5 years focused on Java, Spring Boot, and enterprise-grade backend systems.",
   },
   {
     title: "Enterprise Experience",
-    detail: "Delivered production systems for financial, booking, and communication platforms.",
+    detail:
+      "Delivered production systems for financial, booking, and communication platforms.",
   },
   {
     title: "API Development",
-    detail: "Designed and shipped 95+ REST APIs across authentication, payments, and RBAC.",
+    detail:
+      "Designed and shipped 95+ REST APIs across authentication, payments, and RBAC.",
   },
   {
     title: "Performance Optimization",
-    detail: "Reduced manual operational effort by up to 70% through query and workflow optimization.",
+    detail:
+      "Reduced manual operational effort by up to 70% through query and workflow optimization.",
   },
   {
     title: "Business-Oriented Thinking",
-    detail: "Ties backend decisions to measurable outcomes: reliability, effort saved, users supported.",
+    detail:
+      "Ties backend decisions to measurable outcomes: reliability, effort saved, users supported.",
   },
   {
     title: "Cross-Functional Collaboration",
-    detail: "Works closely with frontend, QA, and product teams inside Agile sprints.",
+    detail:
+      "Works closely with frontend, QA, and product teams inside Agile sprints.",
   },
 ];
 
 export const engineeringPhilosophy = [
-  { title: "Clean Architecture", detail: "Structuring services so responsibilities stay separated and testable." },
-  { title: "Security First", detail: "Authentication, authorization, and RBAC treated as core requirements, not add-ons." },
-  { title: "Performance", detail: "Query optimization and profiling as a routine part of shipping, not a fire drill." },
-  { title: "Reliability", detail: "Exception handling and monitoring built in so production issues surface early." },
-  { title: "Agile Collaboration", detail: "Sprint planning, code reviews, and deployments as a team rhythm." },
-  { title: "Continuous Learning", detail: "Expanding from backend depth into full-stack and cloud fundamentals." },
+  {
+    title: "Clean Architecture",
+    detail:
+      "Structuring services so responsibilities stay separated and testable.",
+  },
+  {
+    title: "Security First",
+    detail:
+      "Authentication, authorization, and RBAC treated as core requirements, not add-ons.",
+  },
+  {
+    title: "Performance",
+    detail:
+      "Query optimization and profiling as a routine part of shipping, not a fire drill.",
+  },
+  {
+    title: "Reliability",
+    detail:
+      "Exception handling and monitoring built in so production issues surface early.",
+  },
+  {
+    title: "Agile Collaboration",
+    detail: "Sprint planning, code reviews, and deployments as a team rhythm.",
+  },
+  {
+    title: "Continuous Learning",
+    detail:
+      "Expanding from backend depth into full-stack and cloud fundamentals.",
+  },
 ];
 
 export const process = [
