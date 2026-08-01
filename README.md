@@ -98,9 +98,4 @@ npm run build
 npm start
 ```
 
-## Before going live
 
-- [ ] Replace `profile.linkedin` / `profile.github` placeholders in `lib/data.ts`
-- [ ] Swap `public/resume.pdf` for your latest export if it changes
-- [ ] Update `siteUrl` in `app/layout.tsx`, `app/sitemap.ts`, `app/robots.ts`
-- [ ] Add a real Open Graph image (`public/og.png`) and reference it in `metadata.openGraph.images`
