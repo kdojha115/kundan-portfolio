@@ -72,6 +72,7 @@ support, mobile-responsive nav.
 
 Simplified / not included (optional future additions, kept out to avoid
 scope creep and unnecessary flash):
+
 - Command palette (⌘K navigation)
 - Custom animated cursor
 - Light mode (site is intentionally dark-only, per the design brief)
